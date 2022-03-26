@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.intro-image {
+    background-attachment: fixed;
+    background-image: url('../img/pexels-lisa-fotios-1652109.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.intro-image_link a {
+    background-color: #66766c8c;
+    border: 2px solid #d9b66fec;
+    color: #d9b56f;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.intro-image_link a:hover {
+    transform: scale(1.2);
+}
+
+.intro-text {
+    background-color: #63513d;
+    color: #d9b56f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0 15rem;
+}
+
+.intro-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.packaging-image {
+    background-attachment: fixed;
+    background-image: url('../img/pexels-ron-lach-8271829.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.packaging-image__link a {
+    background-color: #37373db0;
+    border: 2px solid #d9b66fec;
+    color: #d9b56f;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.packaging-image__link a:hover {
+    transform: scale(1.2); 
+}
+
+.packaging-text {
+    background-color: #866e69;
+    color: #d4b491;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0 15rem;
+}
+
+.packaging-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.tutorials-image {
+    background-attachment: fixed;
+    background-image: url('../img/pexels-yan-krukov-7234513.jpg');
+    background-size: cover;
+    background-position: bottom;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+}
+
+.tutorials-image__link a {
+    background-color: #37373db0;
+    border: 2px solid #dfdfdfec;
+    color: #d9b56f;
+    display: inline-block;
+    font-size: 3rem;
+    padding: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 1s ease-in-out;
+}
+
+.tutorials-text {
+    background-color: #e42600;
+    color: #dbd7d1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+    padding: 0 15rem;
+}
+
+.tutorials-image__link a:hover {
+    transform: scale(1.2); 
+}
+
+.tutorials-text__textbox h3 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.footer {
+    height: 250px;
+    background-color: #9797a7;
+    color: #5a5e6b;
+    font-size: 2rem;
+    padding-top: 2rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 1rem;
+}
+
+.footer ul li a {
+    color: #b8bccb;
+    text-decoration: none;
+}
+
+.footer ul li a:hover {
+    color: #ffffff;
+}
